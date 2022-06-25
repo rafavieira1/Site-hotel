@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+
+    <style>
+        h1, h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        header {
+            background-color: #eb0f0f;
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 0%, rgba(255,255,255,1) 17%, rgba(172,0,17,1) 100%);
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            justify-content: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 4%, rgba(255,253,244,1) 50%, rgba(172,0,17,1) 100%);
+        }
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=email], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=tel], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=date], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=number], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            width: 100%;
+            background-color: red;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Hotel Passatempo</h1>
+        <a href="D:\UTFPR\Programação\Site_hotel\ohotel.html">O hotel</a>
+        |
+        <a href="D:\UTFPR\Programação\Site_hotel\faleconosco.html">Fale Conosco</a>
+        <hr>
+    </header>
+    <!---------------------------------------------------------------------------->
+    <nav>
+        <ul>
+            <li><a href="D:\UTFPR\Programação\Site_hotel\reserva.html">Reserva</a></li>
+            <li><a href="D:\UTFPR\Programação\Site_hotel\acomodacoes.html">Acomodações</a></li>
+            <li><a href="D:\UTFPR\Programação\Site_hotel\comodidades.html">Comodidades</a></li>
+            <li><a href="D:\UTFPR\Programação\Site_hotel\ofertas.html">Ofertas</a></li>
+        </ul>  
+    </nav>
+    <!---------------------------------------------------------------------------->
+    
+    <main>
+        <form action="Reserva">
+            <fieldset>
+                <legend>Responsável</legend>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" value="" placeholder="Fulano de tal">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" value="" placeholder="fulano@provedor.com">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" value="" placeholder="(xx) xxxxx-xxxx">
+            </fieldset>
+        </form>
+        <form action="Reserva">
+            <fieldset>
+                <legend>Dados da reserva</legend>
+                    <label for="data_e">Data de entrada</label>
+                    <input type="date" id="data_e" name="data_e" value="">
+                    <label for="data_s">Data de saída</label>
+                    <input type="date" id="data_s" name="data_s" value="">
+                    <label for="adulto">Adultos</label>
+                    <input type="number" id="adulto" name="adulto" value="" min="1" max="4">
+                    <label for="crianças">Crianças</label>
+                    <input type="number" id="crianças" name="crianças" value="" min="0" max="4">
+                    <label for="acomodacoes">Acomodações</label>
+                    <select id="acomodacoes">
+                        <option value="standart">Standart</option>
+                        <option value="luxo">Luxo</option>
+                    </select>
+            </fieldset>
+            <br>
+            <input type="submit" value="Reservar">
+        </form>
+    </main>
+    <hr>
+    <!---------------------------------------------------------------------------->
+    <footer>
+        <p>
+            Hotel Passatempo - 2022
+            <br>
+            Av. João de barro, 777 - Medianeira - PR
+        </p>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/whatsapp.png"
+            alt="" width="25px" height="25px">
+            (45)99999-9999
+            <br>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/email.png"
+            alt="" width="25px" height="25px">
+            contato@hotelpassatempo.br
+    </footer>
+</body>
+</html>

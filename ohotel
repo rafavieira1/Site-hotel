@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .img {
+            box-shadow: 10px 10px 5px black;
+        }
+        h1, h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        header {
+            background-color: #eb0f0f;
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 0%, rgba(255,255,255,1) 17%, rgba(172,0,17,1) 100%);
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            justify-content: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 4%, rgba(255,253,244,1) 50%, rgba(172,0,17,1) 100%);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Hotel Passatempo</h1>
+        <a href="D:\UTFPR\Programação\Site_hotel\ohotel.html">O hotel</a>
+        |
+        <a href="D:\UTFPR\Programação\Site_hotel\faleconosco.html">Fale Conosco</a>
+        <hr>
+    </header>
+
+    <main>
+        <h2>O começo do de tudo</h2>
+        <p>A Passatempo Hotéis & Resorts nasceu na cidade de Londrina (PR), em 1963, com o Passatempo Londrina Business Hotel. Dez anos depois foi inaugurado o primeiro Resort, 
+            o Passatempo Cataratas Convention & Spa Resort, na cidade de Foz do Iguaçu, também no Paraná. A partir daí a Rede se expandiu em vários países da América Latina (Brasil, 
+            Argentina e Paraguai). Hoje são 21 hotéis e plano constante de expansão. Em 2018, ano em que a Rede completou 55 anos, foram lançados dois empreendimentos: 
+            Passatempo Santos Hotel e Passatempo Cambará Hotel. Para o primeiro semestre de 2019 está prevista a abertura do Rio Hotel by Passatempo Campinas, na cidade de Campinas (SP).
+        </p>
+        <img class="img" src="https://www.saopauloinfoco.com.br/wp-content/uploads/2017/06/Construção-1952.jpg" alt="Obra">
+
+            <h2>Um pouco da história</h2>
+            <p>O início do empreendedorismo da família Vezozzo já tinha relação com o nome “Passatempo”. 
+                Proprietária de fazendas de café da semente com este nome no Paraná, passou pela grande crise da geada negra que praticamente extinguiu o produto da região. 
+                Porém, uma das fazendas, em Londrina, permitiu que a família entendesse profundamente a importância da região que, naquela época, 
+                foi um polo de destaque para a exportação cafeeira. Notaram também a alta demanda para hospedagem e viram como uma oportunidade a construção de um hotel. 
+                O primeiro de muitos na história de 55 anos da Passatempo Hotéis & Resorts.
+            </p>
+
+        <h2>Atualmente</h2>
+        <p>Atualmente o hotel Passatempo, possui a sua sede na cidade de foz do iguaçu e mais de 20 hotéis espalhados por cidades do paraná. O CEO da franquia de hotéis declarou 
+            em uma entrevista recentemente, em que citou a possibilidade de abrir outros hotéis em diferentes áreas do Brasil, seu foco principal no momento é expandir a rede de franquia
+            de hotéis para o Brasil inteiro.
+        </p>
+
+        <img class="img" src="https://pix10.agoda.net/hotelImages/461/461497/461497_17041922110052487719.jpg?ca=6&ce=1&s=1024x768" alt="Atual" width="700px" height="500px" >
+        <br><br>
+        <div>Foto do hotel Passatempo Medianeira, 2022</div>
+    </main>
+    <hr>
+
+    <footer>
+        <p>
+            Hotel Passatempo - 2022
+            <br>
+            Av. João de barro, 777 - Medianeira - PR
+        </p>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/whatsapp.png"
+            alt="" width="25px" height="25px">
+            (45)99999-9999
+            <br>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/email.png"
+            alt="" width="25px" height="25px">
+            contato@hotelpassatempo.br
+    </footer>
+
+</body>
+</html>

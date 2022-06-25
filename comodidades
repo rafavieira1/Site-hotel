@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header {
+            background-color: #eb0f0f;
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 0%, rgba(255,255,255,1) 17%, rgba(172,0,17,1) 100%);
+            text-align: center;
+        }
+        .lista {
+            text-align: center;
+            list-style-type: none;
+            box-shadow: 10px 10px 5px black;
+        }
+        .img {
+            text-align: center;
+            justify-content: center;
+            padding-left: 25%;
+        }
+        footer {
+            text-align: center;
+            justify-content: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 4%, rgba(255,253,244,1) 50%, rgba(172,0,17,1) 100%);
+        }
+        h1, h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Hotel Passatempo</h1>
+        <a href="D:\UTFPR\Programação\Site_hotel\ohotel.html">O hotel</a>
+        |
+        <a href="D:\UTFPR\Programação\Site_hotel\faleconosco.html">Fale Conosco</a>
+        <hr>
+    </header>
+
+    <main>
+        <h1 class="lista">Comodidades do Hotel</h1>
+
+        <div class="lista">
+            <ul class="lista">
+                <li>316 quartos para não fumantes</li>
+                <li>Serviço de arrumação diário</li>
+                <li>Restaurantes e um bar/lounge</li>
+                <li>Piscina externa</li>
+                <li>Café da manhã disponível</li>
+                <li>Serviço de traslado de/para o shopping center grátis</li>
+            </ul>
+
+            <h2 >Para família</h2>
+            <ul class="lista">
+                <li>Berços grátis</li>
+                <li>Quartos conjugados disponíveis</li>
+                <li>Banheiro privativo</li>
+                <li>Canais de TV premium</li>
+                <li>TV</li>
+                <li>Produtos de toalete grátis</li>
+            </ul>
+            <hr>
+        </div>
+
+        <img class="img" src="https://exp.cdn-hotels.com/hotels/1000000/30000/25200/25141/b27abc37_z.jpg?impolicy=fcrop&w=1000&h=666&q=medium" alt="">
+        <hr>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>
+            Hotel Passatempo - 2022
+            <br>
+            Av. João de barro, 777 - Medianeira - PR
+        </p>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/whatsapp.png"
+            alt="" width="25px" height="25px">
+            (45)99999-9999
+            <br>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/email.png"
+            alt="" width="25px" height="25px">
+            contato@hotelpassatempo.br
+    </footer>
+
+</body>
+</html>

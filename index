@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Passatempo</title>
+
+    <style>
+        body{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 25px 50px 75px 100px;
+        }
+        h1, h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        header {
+            background-color: #eb0f0f;
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 0%, rgba(255,255,255,1) 17%, rgba(172,0,17,1) 100%);
+            text-align: center;
+        }
+        .navheader {
+            text-align: right;
+            float: right;
+            min-height: auto;
+            
+        }
+        .demo:hover {
+            list-style-type: none;
+            background-color: #000000; 
+            opacity: 0.7;
+        }
+        nav {
+            text-align: left;
+        }
+        main {
+            text-align: center;
+        }
+        aside {
+            text-align: right;
+            float: right;
+        }
+        footer {
+            text-align: center;
+            justify-content: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 4%, rgba(255,253,244,1) 50%, rgba(172,0,17,1) 100%);
+        }
+        .img {
+            box-shadow: 10px 10px 5px black;
+        }
+    </style>
+
+</head>
+<body>
+    <!---------------------------------------------------------------------------->
+    <header>
+        <h1>Hotel Passatempo</h1>
+        <a href="D:\UTFPR\Programação\Site_hotel\ohotel.html">O hotel</a>
+        |
+        <a href="D:\UTFPR\Programação\Site_hotel\faleconosco.html">Fale Conosco</a>
+        <hr>
+    </header>
+   
+    <!---------------------------------------------------------------------------->
+        
+    <nav class="navheader">
+        <ul class="demo">
+            <li><a href="D:\UTFPR\Programação\Site_hotel\reserva.html">Reserva</a></li>
+            <li><a href="D:\UTFPR\Programação\Site_hotel\acomodacoes.html">Acomodações</a></li>
+            <li><a href="D:\UTFPR\Programação\Site_hotel\comodidades.html">Comodidades</a></li>
+            <li><a href="D:\UTFPR\Programação\Site_hotel\ofertas.html">Ofertas</a></li>
+        </ul>  
+    </nav>
+
+    <!---------------------------------------------------------------------------->
+
+    <nav>
+        <img class="img" src="D:\UTFPR\Programação\Site_hotel\imagem\hotel.jpeg" 
+        alt="" width="500px" height="350px">
+    </nav>
+
+    <!---------------------------------------------------------------------------->
+
+    <main>
+        <article>
+        <section>
+        <h2>Conheça o Hotel Passatempo</h2>
+        <p>Hotel com localização privilegiada, próximo ao aeroporto e pertinho dos principais pontos turísticos da cidade e que proporciona a você uma ótima estada
+            ,seja a trabalho ou a passeio.
+            Além disso, vários detalhes podem ser destacados, como Agência de viagens no hotel e a tradição na qualidade de atendimento e conforto mais aconchegantes
+            em Medianeira no Paraná
+        </section>
+
+        <section>
+        <h2>Bem vindo a Medianeira</h2>
+        <p>O turista que procura por uma cidade acolhedora, com ótimas opções nurais para relaxar, não irá se arrepender de colocar Medianeira no roteiro de viagens. Culinária, 
+            sotaque e costumes guardam ainda a história, remetendo aos descendentes de alemães e italianos que migraram do sul para a região. 
+        <br><br>
+            Localizada no Oeste do Paraná, a cidade faz fronteira com os municipios de Serranópolis do Iguaçu, Matelándla, São Miguel do Iguaçu e Missal. 
+            A economia de Medianeira é pautada pela indústria prestação de servicos e produção agropecuária De acordo com o IBGE, sua população estimada é de 45,812 habitantes.
+        <br><br>
+            O nome da cidade tem origem religiosa, sendo uma homenagem dos pioneiros a Nossa Senhora Medianeira de Todas as Graças. 
+            O municipio carrega o titulo de Portal do Mercosul devido a sua localização geográfica privilegiada, com rodovias que dão acesso a capital Curitiba, aos Estados de Santa Catarina, 
+            Rio Grande do Sul e Mato Grosso, além dos paises vizinhos Paraguai e Argentina.
+        <br><br>
+            Seja na cidade ou no campo, Medianeira proporciona ao turista momentos de cultura, descontração e lazer.
+            Aproveite os espaços públicos e não perca os passeios do Turismo Rural, onde será possivel vivenciar a vida no campo e saborear os deliciosos cafes.
+        <br><br>
+            Viaje Paraná: <a href="https//nrwvlaisparana.com/Medianeira">https//nrwvlaisparana.com/Medianeira</a>
+        </article>
+        <div class="topo">
+            <p>Voltar ao topo</p> 
+        </div>
+        </section>
+        </article>
+    </main>
+    <!---------------------------------------------------------------------------->
+    <aside>
+        <img src="https://logodownload.org/wp-content/uploads/2015/05/uber-logo-5-1.png"
+            alt="" width="65px" height="65px">
+        <img src="https://99app.com/wp-content/uploads/2018/06/SC_2964.png"
+            alt="" width="65px" height="65px">
+            <hr>
+    </aside>
+    <!---------------------------------------------------------------------------->
+    <footer>
+        <hr>
+        <p>
+            Hotel Passatempo - 2022
+            <br>
+            Av. João de barro, 777 - Medianeira - PR
+        </p>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/whatsapp.png"
+            alt="" width="25px" height="25px">
+            (45)99999-9999
+            <br>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/email.png"
+            alt="" width="25px" height="25px">
+            contato@hotelpassatempo.br
+    </footer>
+</body>
+</html>

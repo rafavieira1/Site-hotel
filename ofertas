@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1, h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        header {
+            background-color: #eb0f0f;
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 0%, rgba(255,255,255,1) 17%, rgba(172,0,17,1) 100%);
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            justify-content: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 4%, rgba(255,253,244,1) 50%, rgba(172,0,17,1) 100%);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Hotel Passatempo</h1>
+        <a href="D:\UTFPR\Programação\Site_hotel\ohotel.html">O hotel</a>
+        |
+        <a href="D:\UTFPR\Programação\Site_hotel\faleconosco.html">Fale Conosco</a>
+        <hr>
+    </header>
+
+    <main>
+        <h1>Ofertas</h1>
+
+        <p>Utilize os sites de nossos parceiros e ganhe descontos imperdíveis!</p>
+        <div style="font-size:20px;">
+            <a href="https://www.hoteis.com">Hoteis.com</a>
+            <div>Desconto de 10% com o cupom "MENOS10" no site! *Promoção válida apenas durante a primeira semana do mês*</div>
+            <br>
+            <a href="https://www.trivago.com">Trivago</a>
+            <div>Desconto de 8% com o cupom "PASSATEMPO10" no site! *Promoção válida apenas durante a última semana do mês*</div>
+            <br>
+            <a href="https://www.booking.com">Booking</a>
+            <div>Desconto de 15% com o cupom "15DE15" no site! *Promoção válida apenas durante todos dias 15 do mês*</div>
+        </div>
+    </main>
+    
+    <footer>
+        <hr>
+        <p>
+            Hotel Passatempo - 2022
+            <br>
+            Av. João de barro, 777 - Medianeira - PR
+        </p>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/whatsapp.png"
+            alt="" width="25px" height="25px">
+            (45)99999-9999
+            <br>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/email.png"
+            alt="" width="25px" height="25px">
+            contato@hotelpassatempo.br
+    </footer>
+
+</body>
+</html>

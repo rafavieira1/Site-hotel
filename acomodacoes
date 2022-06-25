@@ -1,0 +1,211 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header {
+            background-color: #eb0f0f;
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 0%, rgba(255,255,255,1) 17%, rgba(172,0,17,1) 100%);
+            text-align: center;
+        }
+        .navheader {
+            text-align: right;
+            float: right;
+            min-height: auto;
+        }
+        table, th, td {
+          border:1px solid black;
+          text-align: center;
+          padding: 15px;
+        }
+        section {
+            text-align: center;
+            justify-content: center;
+            border-left: 50px;
+        }
+        body{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 25px 50px 75px 100px;
+        }
+        h1, h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        ul, li {
+            padding: 10px, 10px;
+            border: 10px;
+        }
+        footer {
+            text-align: center;
+            justify-content: center;
+            background: rgb(2,0,36);
+            background: linear-gradient(214deg, rgba(2,0,36,1) 0%, rgba(207,21,21,1) 0%, rgba(196,47,54,1) 4%, rgba(255,253,244,1) 50%, rgba(172,0,17,1) 100%);
+        }
+        .img {
+            box-shadow: 10px 10px 5px black;
+        }
+    </style>
+
+
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Hotel Passatempo</h1>
+            <a href="D:\UTFPR\Programação\Site_hotel\ohotel.html">O hotel</a>
+            |
+            <a href="D:\UTFPR\Programação\Site_hotel\faleconosco.html">Fale Conosco</a>
+            <hr>
+        </header>
+
+        <nav class="navheader">
+            <ul>
+                <li><a href="D:\UTFPR\Programação\Site_hotel\reserva.html">Reserva</a></li>
+                <li><a href="D:\UTFPR\Programação\Site_hotel\acomodacoes.html">Acomodações</a></li>
+                <li><a href="D:\UTFPR\Programação\Site_hotel\comodidades.html">Comodidades</a></li>
+                <li><a href="D:\UTFPR\Programação\Site_hotel\ofertas.html">Ofertas</a></li>
+            </ul>  
+        </nav>
+
+        <nav>
+            <h1>Acomodações</h1>
+            <br>
+            <h1>Apartamento Standart</h1>
+
+            <img class="img" src="https://blog.gazinatacado.com.br/wp-content/uploads/2017/11/cama-de-hotel.jpg" 
+            alt="" width="550px" height="400px">
+        </nav>
+
+        <aside>
+            <ul>
+                <li>Cama king size</li>
+                <li>Banheiro</li>
+                <li>Internet sem fio</li>
+                <li>Mini bar com itens personalizados mediante solicitação</li>
+                <li>Artigos de higiene pessoal</li>
+                <li>TV LED com 40''</li>
+            </ul>
+        </aside>
+        <br><br><br><br><br><br>
+        <hr>
+    </main>
+
+    <main>
+        
+            <h1>Apartamento de Luxo</h1>
+        
+        <nav>
+            <img class="img" src="https://extra.globo.com/incoming/25130488-2bb-266/w976h550-PROP/hotel-1979406_1920.jpg" 
+            alt="" width="550px" height="400px">
+        </nav>
+
+        <aside>
+            <ul>
+                <li>Cama queen size</li>
+                <li>Banheiro espaçoso com banheira de hidromassagem</li>
+                <li>Internet sem fio</li>
+                <li>Mini bar com itens personalizados mediante solicitação</li>
+                <li>Artigos de higiene pessoal de luxo</li>
+                <li>TV QLED com 60''</li>
+                <li>Aplicativos de streaming</li>
+            </ul>
+        </aside>
+
+        <h3>Tarifas</h3>
+
+        <section>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Apartamento</th>
+                    <th>Tarifa básica (1 adulto)</th>
+                    <th>+1 Adulto</th>
+                    <th>+1 Criança</th>
+                </tr>
+                <tr>
+                  <td rowspan="6" colspan="1">Luxo</td>
+                  <td rowspan="2">Duplo</td>
+                  <td>150,00</td>
+                  <td>50,00</td>
+                  <td>15,00</td>
+                </tr>
+                <tr>
+                    <td colspan="3">1 cama de casal ou 2 camas de solteiro</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Triplo</td>
+                    <td>150,00</td>
+                    <td>45,00</td>
+                    <td>13,00</td>
+                </tr>
+                <tr>
+                    <td colspan="3">1 cama de casal + 1 de solteiro ou 3 camas de solteiro</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Família</td>
+                    <td>150,00</td>
+                    <td>40,00</td>
+                    <td>10,00</td>
+                </tr>
+                <tr>
+                    <td colspan="3">2 cama de casal ou 1 cama de casal + 2 de solteiro</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="6" colspan="1">Standart</td>
+                    <td rowspan="2">Duplo</td>
+                    <td>220,00</td>
+                    <td>80,00</td>
+                    <td>25,00</td>
+                  </tr>
+                  <tr>
+                      <td colspan="3">1 cama de casal ou 2 camas de solteiro</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="2">Triplo</td>
+                      <td>150,00</td>
+                      <td>75,00</td>
+                      <td>23,00</td>
+                  </tr>
+                  <tr>
+                      <td colspan="3">1 cama de casal + 1 de solteiro ou 3 camas de solteiro</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="2">Família</td>
+                      <td>150,00</td>
+                      <td>70,00</td>
+                      <td>20,00</td>
+                  </tr>
+                  <tr>
+                      <td colspan="3">2 cama de casal ou 1 cama de casal + 2 de solteiro</td>
+                  </tr>
+
+                  <tr>
+                    <td rowspan="6" colspan="1"><b>Observação</b></td>
+                    <td colspan="3">Valores de segunda a sexta-feira. Nos finais de semana o valor é acrescido em 10%</td>
+                  </tr>
+              </table>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>
+            Hotel Passatempo - 2022
+            <br>
+            Av. João de barro, 777 - Medianeira - PR
+        </p>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/whatsapp.png"
+            alt="" width="25px" height="25px">
+            (45)99999-9999
+            <br>
+        <img src="file:///D:/UTFPR/Programação/Site_hotel/imagem/email.png"
+            alt="" width="25px" height="25px">
+            contato@hotelpassatempo.br
+    </footer>
+
+
+</body>
+</html>
